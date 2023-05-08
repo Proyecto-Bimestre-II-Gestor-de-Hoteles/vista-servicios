@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "larios",
+    "dateExported": "2023-05-08T04:40:28.655Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "219d4c19-4fa5-467b-989b-68438dba749b",
+            "colId": "563bad95-2ef6-4e1a-add6-0de3bb57f31c",
+            "containerId": "",
+            "name": "get",
+            "url": "localhost:8080/api/servicios/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-08T01:46:08.855Z",
+            "modified": "2023-05-08T01:46:36.863Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5e043124-0f51-47a3-8265-47208c032f34",
+            "colId": "563bad95-2ef6-4e1a-add6-0de3bb57f31c",
+            "containerId": "",
+            "name": "put",
+            "url": "localhost:8080/api/servicios/editar/64585510b9af72acbd104852",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-05-08T01:46:15.926Z",
+            "modified": "2023-05-08T01:50:11.317Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"larios\",\n  \"precio\":48,\n  \"usuario\":\"641e8631f3251766b3b74281\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "569d1cfc-0aae-455f-b066-a08f33833666",
+            "colId": "563bad95-2ef6-4e1a-add6-0de3bb57f31c",
+            "containerId": "",
+            "name": "post",
+            "url": "localhost:8080/api/servicios/agregar",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-08T01:46:21.191Z",
+            "modified": "2023-05-08T01:49:04.193Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"josue\",\n  \"precio\":48,\n  \"usuario\":\"641e8631f3251766b3b74281\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9ca4aa19-0943-42e0-80df-647ac4dee13f",
+            "colId": "563bad95-2ef6-4e1a-add6-0de3bb57f31c",
+            "containerId": "",
+            "name": "delete",
+            "url": "localhost:8080/api/servicios/eliminar/6436210eab90b0b9cc903a09",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-05-08T01:46:26.511Z",
+            "modified": "2023-05-08T01:49:32.469Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
